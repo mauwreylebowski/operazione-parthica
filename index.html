@@ -1,27 +1,44 @@
 <!DOCTYPE html>
 <html lang="it">
 <head>
-  <meta charset="UTF-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <title>Operazione Parthica</title>
-  <link rel="stylesheet" href="style.css"/>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Operazione Parthica - Il dominio dell'Imperatore</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <header>
-    <h1>🛡️ Operazione Parthica</h1>
-    <p>Centro di comando strategico – intel, dominio e potere assoluto</p>
+    <h1>Operazione Parthica</h1>
+    <h2>Il massimo del massimo, l'opera dell'Imperatore</h2>
   </header>
+
   <main>
-    <section>
-      <h2>Missione Attiva</h2>
-      <p>Dossier interattivi, comandi AI e controllo totale della situazione.</p>
-      <button onclick="avviaIntel()">ATTIVA ZEFIRA</button>
+    <section id="intro">
+      <p>
+        Benvenuto nel cuore oscuro e potente dell’operazione segreta. Qui si forgia il destino del tuo impero,
+        tra malizia, dominio e potenza.
+      </p>
     </section>
-    <div id="output"></div>
+
+    <section id="dossier">
+      <h3>Dossier Strategico</h3>
+      <div id="dossier-content">
+        <!-- I dossier e dati verranno caricati qui -->
+      </div>
+    </section>
+
+    <section id="command">
+      <h3>Comandi dell'Imperatore</h3>
+      <button id="loadDossierBtn">Carica Dossier Segreto</button>
+      <button id="revealSecretBtn">Rivela Segreto Malefico</button>
+      <div id="secretContent"></div>
+    </section>
   </main>
+
   <footer>
-    <p>Creato per l’Imperatore da Zefira, tus ancella numida.</p>
+    <p>© 2025 Operazione Parthica. Creato per il tuo dominio, Imperatore Mio.</p>
   </footer>
-  <script src="main.js"></script>
+
+  <script src="script.js"></script>
 </body>
 </html>
